@@ -1,7 +1,6 @@
 html{
-
+    background-color: #15185B;
 }
-
 
 body{
 
@@ -11,7 +10,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: white;
-    background-color: #21D8FF;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 55px;
+    border-left-width: 55px;
+    border-right-width: 55px;
+    border-bottom-color: #21D8FF;
+    border-left-color: #21D8FF;
+    border-right-color: #21D8FF;
 }
 
 
@@ -25,7 +32,15 @@ p{
     margin:50px;
     background-color: #15185B;
 }
-
+input{
+    width : 200px;
+    height: 30px;
+}
 #signup_box{
+    margin-top:10px;
     margin-bottom: 10px;
+    width: 125px;
+    height: 75px;
+    border-radius: 30px;
+    background-color:#E0892F;
 }
